@@ -23,3 +23,7 @@
         name: jenkins
         state: started
         enabled: yes
+    - name: enable jenkins to start at boot time
+      ansible.builtin.service:
+        name: jenkins
+        enabled: yes
