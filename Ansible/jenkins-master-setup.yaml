@@ -12,7 +12,7 @@
       state: present
   - name: install java
     ansible.builtin.apt:
-      name: openjdk-11-jre
+      name: openjdk-17-jre
       state: present
   - name: install jenkins
     ansible.builtin.apt:
